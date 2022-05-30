@@ -1,6 +1,7 @@
 This readme file contains instructions that will be useful in the github repository, or can be read as stand a
 lone -- instructions on how to run the entire analysis, either through Makefile, runall.py or runall.R
 
+```
 .
 ├── data
 │   ├── external	<- Data from third party sources.
@@ -46,5 +47,5 @@ lone -- instructions on how to run the entire analysis, either through Makefile,
 │   └── visualization	<- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
 └── tox.ini		<- Automate testing, cf. https://tox.readthedocs.io/en/latest/.
-
+```
 
