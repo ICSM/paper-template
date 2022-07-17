@@ -3,6 +3,7 @@ lone -- instructions on how to run the entire analysis, either through Makefile,
 
 ```
 .
+├── analysis            <- Directory to work on your analysis
 ├── data
 │   ├── external	<- Data from third party sources.
 │   ├── intermediate	<- Intermediate data that has been transformed.

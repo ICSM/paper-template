@@ -1,3 +1,5 @@
+#+title: YOUR TITLE (Copy from below)
+#+author: Ciska Kemper (Copy from below)
 #+Options: toc:nil ^:nil H:4 author:nil title:nil
 #+BIND: org-latex-title-command ""
 #+Latex_Class: mnras
@@ -26,17 +28,21 @@
 #+Latex: \pagerange{\pageref{firstpage}--\pageref{lastpage}}
 #+Latex: \maketitle
 
-#+BEGIN_EXPORT latex
-\begin{abstract}
-Abstract text here
-\end{abstract}
-#+END_EXPORT
+#+BEGIN_abstract
+Abstract
+#+END_abstract
 
-#+BEGIN_EXPORT latex
-\begin{keywords}
-keyword 1 -- keyword 2 -- keyword 3
-\end{keywords}
-#+END_EXPORT
+#+Latex: \begin{keywords}
+#+Latex: keyword 1 -- keyword 2 -- keyword 33
+#+Latex: \end{keywords}
+
+
+
+
+
+
+
+
 
 * Introduction
 
@@ -49,7 +55,6 @@ keyword 1 -- keyword 2 -- keyword 3
 \cite{Abdullah_20_Large}
 
 cite:vandenAncker_99_ISO
-
 * Conclusions
 
 * Acknowledgements
@@ -78,8 +83,4 @@ cite:vandenAncker_99_ISO
 #+Latex: \label{lastpage}
 
 
-# Local Variables:
-# org-confirm-babel-evaluate: nil
-# org-export-allow-bind-keywords: t
-# End:
 
